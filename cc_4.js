@@ -32,3 +32,14 @@ do {
     responses++; // Simulate getting a response
     console.log(`Response count: ${responses}`);
 } while (responses < 3); // Stop when 3 responses are collected
+
+// Task 5: For...In Loop - Employee Information
+let employee = {
+    name: "Alice",
+    position: "Manager",
+    salary: 75000
+};
+
+for (let key in employee) {
+    console.log(`${key}: ${employee[key]}`); // Loop through object properties
+}
