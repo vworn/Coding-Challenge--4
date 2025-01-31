@@ -15,3 +15,12 @@ for (let i = 0; i < sales.length; i++) {
     totalSales += sales[i]; // Summing up sales
 }
 console.log(`Total sales: $${totalSales}`);
+
+// Task 3: While Loop - Inventory Depletion
+let stock = 10; // Initial stock count
+
+while (stock > 0) {
+    console.log(`Stock remaining: ${stock}`);
+    stock--; // Reducing stock one by one
+}
+console.log("Stock depleted.");
