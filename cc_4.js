@@ -24,3 +24,11 @@ while (stock > 0) {
     stock--; // Reducing stock one by one
 }
 console.log("Stock depleted.");
+
+// Task 4: Do...While Loop - Customer Survey
+let responses = 0; // Start with no responses
+
+do {
+    responses++; // Simulate getting a response
+    console.log(`Response count: ${responses}`);
+} while (responses < 3); // Stop when 3 responses are collected
