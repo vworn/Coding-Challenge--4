@@ -43,3 +43,10 @@ let employee = {
 for (let key in employee) {
     console.log(`${key}: ${employee[key]}`); // Loop through object properties
 }
+
+// Task 6: For...Of Loop - Product Listings
+let products = ["Laptop", "Mouse", "Keyboard"]; // List of products
+
+for (let product of products) {
+    console.log(`Product: ${product}`); // Display each product
+}
