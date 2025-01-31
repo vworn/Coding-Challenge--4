@@ -57,3 +57,11 @@ let orders = [101, 102, 103]; // Order IDs
 orders.forEach(order => {
     console.log(`Processing order ID: ${order}`); // Process each order
 });
+
+// Task 8: Function Declaration - Tax Calculation
+function calculateTax(amount, taxRate) {
+    return amount * taxRate; // Calculate tax based on rate
+}
+
+let taxAmount = calculateTax(100, 0.07);
+console.log(`Tax amount: $${taxAmount}`);
