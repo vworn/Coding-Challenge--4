@@ -50,3 +50,10 @@ let products = ["Laptop", "Mouse", "Keyboard"]; // List of products
 for (let product of products) {
     console.log(`Product: ${product}`); // Display each product
 }
+
+// Task 7: forEach() Method - Order Processing
+let orders = [101, 102, 103]; // Order IDs
+
+orders.forEach(order => {
+    console.log(`Processing order ID: ${order}`); // Process each order
+});
